@@ -1,0 +1,34 @@
+{
+  "jerseys": [
+    {
+      "id": "1",
+      "country": "bangladesh",
+      "price": "1000",
+      "seller": "Mohammad Amzadul Islam ",
+      "description": "Bangladesh is the best team in the world",
+      "img_url": "https://i.ibb.co/K6xcc0w/Bangladesh.jpg",
+      "Stock_quantity": "5",
+      "brand": "a"
+    },
+    {
+      "id": "2",
+      "country": "pakistan",
+      "price": "150",
+      "seller": "Rakib Mohammad Ammar",
+      "description": "Pakistani bowler is the best bowler in the team",
+      "img_url": "https://i.ibb.co/27DFTPy/india.jpg",
+      "Stock_quantity": 5,
+      "brand": "b"
+    },
+    {
+      "id": "3",
+      "country": "India",
+      "price": "1099",
+      "seller": "Sirajul Islam Azad",
+      "description": "Indian betesman is the best better in the world",
+      "img_url": "https://i.ibb.co/x6SYY8k/Pakistan.jpg",
+      "Stock_quantity": 5,
+      "brand": "c"
+    }
+  ]
+}
