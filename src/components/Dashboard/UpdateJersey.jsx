@@ -48,7 +48,7 @@ export default function UpdateJersey() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/jerseys/${jersey._id}`,
+        `https://jersey-store-server.vercel.app/jerseys/${jersey._id}`,
         {
           method: "PATCH",
           headers: {

@@ -36,7 +36,7 @@ export default function AddJersey() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/jerseys", {
+      const response = await fetch("https://jersey-store-server.vercel.app/jerseys", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

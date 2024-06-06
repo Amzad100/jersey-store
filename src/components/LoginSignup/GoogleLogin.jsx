@@ -11,7 +11,7 @@ export default function GoogleLogin() {
           email: data?.user?.email,
           name: data?.user?.displayName,
         };
-        fetch(`http://localhost:5000/user`, {
+        fetch(`https://jersey-store-server.vercel.app/user`, {
           method: "POST",
           headers: {
             "Content-type": "application/json",

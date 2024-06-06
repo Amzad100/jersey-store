@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
-        loader: () => fetch("http://localhost:5000/jerseys"),
+        loader: () => fetch("https://jersey-store-server.vercel.app/jerseys"),
       },
       {
         path: "/jerseys/:id",
@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jerseys/${params.id}`),
+          fetch(`https://jersey-store-server.vercel.app/jerseys/${params.id}`),
       },
       {
         path: "about",
@@ -88,7 +88,7 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jerseys/${params.id}`),
+          fetch(`https://jersey-store-server.vercel.app/jerseys/${params.id}`),
       },
     ],
   },

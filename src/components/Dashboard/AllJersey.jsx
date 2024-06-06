@@ -5,7 +5,7 @@ export default function AllJersey() {
   const [jerseys, setJerseys] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/jerseys")
+    fetch("https://jersey-store-server.vercel.app/jerseys")
       .then((res) => res.json())
       .then((data) => setJerseys(data));
   });

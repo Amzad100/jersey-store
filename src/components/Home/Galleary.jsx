@@ -4,7 +4,7 @@ import SingleGalleryImg from "./SingleGalleryImg";
 export default function Galleary() {
   const [jerseys, setJerseys] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/jerseys")
+    fetch("https://jersey-store-server.vercel.app/jerseys")
       .then((res) => res.json())
       .then((result) => {
         setJerseys(result);

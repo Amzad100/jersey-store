@@ -20,7 +20,7 @@ export default function SingleJerseyDashboard({ jersey }) {
     }
 
     try {
-      const response = await fetch(`http://localhost:5000/jerseys/${_id}`, {
+      const response = await fetch(`https://jersey-store-server.vercel.app/jerseys/${_id}`, {
         method: "DELETE",
       });
 
